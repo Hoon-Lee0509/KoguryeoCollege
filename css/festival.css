@@ -15,20 +15,21 @@ body{margin: 0 auto;}
 
 /* #cnt2 */
 #cnt2{margin-top: 500px;}
-#cnt2 p:last-child{line-height: 1.5;}
+#cnt2 p:last-child{line-height: 24px;}
 
 /* #cnt3 */
 #cnt3 p:first-of-type{line-height: 1.5;}
-#cnt3 .pb_50{padding-bottom: 10px;}
+#cnt3 .pb_50{padding-bottom: 10px; line-height: 24px;}
 
-#areaTab{position: relative; height: 650px;}
-#cnt3 p:last-of-type{margin-bottom: 80px;}
+#areaTab{position: relative; justify-content: space-evenly; margin-bottom: 150px;}
+#areaTab > ul{flex-direction: column; justify-content: space-around;}
+#cnt3 p:last-of-type{margin-bottom: 80px; line-height: 24px;}
 #cnt3 .tab{left: 120px; text-align: center; width: 200px; height: 60px; line-height: 60px; background: #e2e2e2; border-radius: 50px; cursor: pointer; font-size: 18px; font-weight: 400;}
 #cnt3 .tab + .tab{margin-top: 50px;}
-#cnt3 .tabpanel{width: 100%; height: 98px;position: relative;}
-#cnt3 .tabpanel img{position: absolute; top: -450px; left: 300px; width: 980px; height: 522px;}
+#cnt3 .tabpanel{ width: 980px; height: 522px;}
+#cnt3 .tabpanel img{ width: 980px; height: 522px;}
 
-
+#areaTab .tab{transition: all 0.5s;}
 #areaTab .tab:hover, #festTab .tab:focus, #areaTab .tab.active{background: #bd4848; color: #fff;}
 #areaTab .tab:focus{outline: 1px solid #000;}
 
@@ -42,13 +43,13 @@ body{margin: 0 auto;}
 #cnt4 .tab + .tab{margin-left: 40px;}
 #cnt4 .tabpanel ul li{width: 100%; height: 350px; text-align: left; position: relative;}
 #cnt4 .tabpanel ul li h4{position: absolute; top: 30%; font-size: 30px; color: #bd4848;}
-#cnt4 .tabpanel ul li p{position: absolute; top: 50%; font-size: 18px;}
+#cnt4 .tabpanel ul li p{position: absolute; top: 50%; font-size: 18px; line-height: 24px;}
 #cnt4 .tabpanel ul li img{width: 620px; height: 330px;}
 #cnt4 .tabpanel ul li .a_l{left: 55%;}
 #cnt4 .tabpanel ul li .a_r{right: 55%; text-align: right;}
 
 
-
+#festTab .tab{transition: all 0.5s;}
 #festTab .tab:hover, #festTab .tab:focus, #festTab .tab.active{background: #bd4848; color: #fff;}
 #festTab .tab:focus{outline: 1px solid #000;}
 

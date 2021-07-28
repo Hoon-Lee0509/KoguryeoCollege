@@ -36,7 +36,7 @@
 .major.title_bg h2 + p{font-size: 20px;line-height: 1;font-weight: 300;margin-bottom: 62px;}
 
 .breadcrumb ol{justify-content: center;}
-.breadcrumb ol li{font-size: 18px; width: 226px; height: 40px; line-height: 40px; border-radius: 11px; background: #bd4848; }
+.breadcrumb ol li{font-size: 18px; width: 226px; height: 40px; line-height: 40px; border-radius: 11px; background: #bd4848; color: #fff;}
 .breadcrumb ol li + li{position: relative; margin-left: 52px; }
 .breadcrumb ol li + li::after{content: ""; position: absolute; top: 0;left: -35px; width: 18px; height: 100%; background: url("../images/01_common/sprite2.png") no-repeat;}
 .title_bg.white .breadcrumb ol li + li::after{background-position:-500px -500px;}
